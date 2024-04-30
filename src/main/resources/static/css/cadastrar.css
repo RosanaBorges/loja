@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: #ffff;
+}
+
+.card {
+  background-color: #f2f2f2;
+  max-width: 360px;
+  padding: 100px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border: 2px solid #c1edda;
+  border-radius: 20px;
+  margin-top: 150px
+}
+
+.card-body form {
+    text-align: left;
+}
+.card-header{
+    font-family: "Roboto", sans-serif;
+    margin-bottom:50px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.form-group input, select{
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #fffff;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 10px;
+}
+.btn-cadastrar{
+      font-family: "Roboto", sans-serif;
+      text-transform: uppercase;
+      outline: 0;
+      background: #b3cfb0;
+      width: 100%;
+      border: 0;
+      padding: 15px;
+      color: #FFFFFF;
+      font-size: 14px;
+      -webkit-transition: all 0.3 ease;
+      transition: all 0.3 ease;
+      cursor: pointer;
+      border-radius: 15px;
+}
+.navbar-fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #c1edda;
+    height: 80px;
+    display: flex; /* Enable flexbox layout */
+    align-items: center;
+}

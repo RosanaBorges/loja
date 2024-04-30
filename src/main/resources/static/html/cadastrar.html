@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastrar Funcionários</title>
+    <link rel="stylesheet" href="/css/cadastrar.css">
+</head>
+<body>
+<nav class="navbar navbar-light bg-light navbar-fixed-top">
+    <div class="container">
+    <a class="navbar-brand" href="#">
+        <img src="/image/Antonia.png" alt="" width="80" height="80" class="d-inline-block align-text-top">
+    </a>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="text-center">Cadastro de Funcionário</h3>
+                </div>
+                <div class="card-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="nome">Nome Completo:</label>
+                            <input type="text" class="form-control " id="nome" placeholder="Digite o nome">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Digite o e-mail">
+                        </div>
+                        <div class="form-group">
+                            <label for="cpf">CPF:</label>
+                            <input type="text" class="form-control" id="cpf" placeholder="Digite o CPF">
+                        </div>
+                        <div class="form-group">
+                            <label for="rg">RG:</label>
+                            <input type="text" class="form-control" id="rg" placeholder="Digite o RG">
+                        </div>
+                        <div class="form-group">
+                            <label for="telefone">Telefone:</label>
+                            <input type="text" class="form-control" id="telefone" placeholder="Digite o telefone">
+                        </div>
+                        <div class="form-group">
+                            <label for="atividade">Atividade:</label>
+                            <select class="form-control" id="atividade">
+                                <option value="">Selecione</option>
+                                <option value="VENDEDOR">Vendedor</option>
+                                <option value="GERENTE">Gerente</option>
+                                <option value="ADMINISTRADOR">Administrador</option>
+                                <option value="RECURSOS_HUMANOS">Recursos Humanos</option>
+                                <option value="OPERADOR_DE_CAIXA">Operador de Caixa</option>
+                                <option value="VITRINISTA">Vitrinista</option>
+                                <option value="ESTOQUISTA">Estoquista</option>
+                                <option value="LIMPEZA_MANUTENCAO">Limpeza e manutenção</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="loja">Loja:</label>
+                            <input type="text" class="form-control" id="loja" placeholder="Digite a loja">
+                        </div>
+                        <div class="form-group">
+                            <label for="senha">Senha:</label>
+                            <input type="password" class="form-control" id="senha" placeholder="Digite a senha">
+                        </div>
+                        <div class="form-group">
+                            <label for="senhaConfirmacao">Confirme a Senha:</label>
+                            <input type="password" class="form-control" id="senhaConfirmacao" placeholder="Confirme a senha">
+                        </div>
+                        <button type="submit" class="btn-cadastrar btn btn-primary btn-block">Cadastrar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
