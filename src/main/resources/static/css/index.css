@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 body {
-  background: rgb(141,194,111); /* Comente esta linha se quiser */
-  background: #f2f2f2; /* Cor de fundo mais clara para o body */
+  background: rgb(141,194,111);
+  background: #f2f2f2;
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

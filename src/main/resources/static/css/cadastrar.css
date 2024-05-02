@@ -8,7 +8,7 @@ body {
 
 .card {
   background-color: #f2f2f2;
-  max-width: 360px;
+  max-width: 660px;
   padding: 100px;
   text-align: center;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
@@ -56,13 +56,25 @@ body {
       cursor: pointer;
       border-radius: 15px;
 }
-.navbar-fixed-top {
+.navbar-loja {
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
     background-color: #c1edda;
     height: 80px;
-    display: flex; /* Enable flexbox layout */
+    display: flex;
     align-items: center;
 }
+
+.image-navbar-loja-antonia{
+    background-color: #c1edda;
+    margin:0;
+}
+.dropdown a {
+    color: inherit;
+}
+
+
+
+

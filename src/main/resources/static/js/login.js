@@ -23,7 +23,7 @@ $(document).ready(function(){
             success: function(response) {
                 console.log("Login efetuado com sucesso");
                 // Lidar com sucesso
-                window.location.href = "/html/sucesso.html";
+                window.location.href = "/html/paginaInicial.html";
             },
             error: function(jqXHR, textStatus, errorThrown) {
                 console.error(jqXHR.responseText);
